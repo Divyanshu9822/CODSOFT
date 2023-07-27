@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop SpaceX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/5716ed8254.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="bg-black text-white uppercase py-4 px-6 z-2 sticky top-0">
+        <nav class="flex items-center justify-between gap-5 relative ">
+            <div class="menu-btn hidden max-[1050px]:block max-[1050px]:order-1 text-3xl cursor-pointer">☰</div>
+            <ul class="max-[1050px]:order-2 max-[1050px]:ml-12">
+                <img src="./images/logo.png" class="w-[80%]">
+            </ul>
+            <ul class="flex gap-2 items-center max-[1050px]:hidden">
+                <li class="px-5 py-2 cursor-pointer">mens</li>
+                <li class="px-5 py-2 cursor-pointer">womens</li>
+                <li class="px-5 py-2 cursor-pointer">kids</li>
+                <li class="px-5 py-2 cursor-pointer">accessories</li>
+            </ul>
+            <ul class="flex gap-2 ml-auto max-[1050px]:ml-0 max-[1050px]:order-3">
+                <li class="px-5 py-2 text-gray-500 cursor-pointer hover:text-white max-[1050px]:hidden">account</li>
+                <li class="px-5 py-2 max-[1050px]:p-2 cursor-pointer"><i
+                        class="fa-solid fa-magnifying-glass hidden max-[1050px]:block text-xl"></i><span
+                        class="max-[1050px]:hidden text-gray-500 hover:text-white">search</span></li>
+                <li class="px-5 py-2 max-[1050px]:p-2 cursor-pointer"><i
+                        class="fa-solid fa-bag-shopping hidden max-[1050px]:block text-xl"></i><span
+                        class="max-[1050px]:hidden text-gray-500 hover:text-white">cart</span></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="./images/bg.jpg">
+        </section>
+        <section class="mb-8">
+            <h1 class="uppercase my-16 text-2xl text-center font-md tracking-wide">featured products</h1>
+            <div class="flex items-start justify-center flex-wrap gap-10 px-10">
+                <div class="uppercase">
+                    <div class="product product1">
+
+                    </div>
+                    <h4 class="text-center mt-6 cursor-pointer">kid's spacex spacesuit onesie</h4>
+                    <h4 class="text-center mt-6 cursor-pointer">$45.00</h4>
+                </div>
+                <div class="uppercase">
+                    <div class="product product2">
+
+                    </div>
+                    <h4 class="text-center mt-6 cursor-pointer">unisex startship pullover hoodie</h4>
+                    <h4 class="text-center mt-6 cursor-pointer">$65.00</h4>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="button my-10">
+                    <a href="#">view all featured</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="grid grid-cols-3 max-[1350px]:grid-cols-2 max-[800px]:grid-cols-1 max-[800px]:gap-5 max-[800px]:p-6">
+            <div class="relative">
+                <img src="./images/men.png" class="cursor-pointer"  alt="" srcset="">
+                <div class="absolute h-full w-full top-0 left-0" style="background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));"></div>
+                <div class="absolute cat bottom-20 left-20">
+                    <h1 class="uppercase text-3xl text-white font-bold mb-3">
+                        men's
+                    </h1>
+                    <div class="btn">
+                        <a href="#">view products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="./images/women.png"  class=" cursor-pointer" alt="" srcset="">
+                <div class="absolute h-full w-full top-0 left-0" style="background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));"></div>
+                <div class="absolute cat bottom-20 left-20">
+                    <h1 class="uppercase text-3xl text-white font-bold mb-3">
+                        women's
+                    </h1>
+                    <div class="btn">
+                        <a href="#">view products</a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative max-[1350px]:col-span-2 max-[800px]:col-span-1">
+                <img src="./images/assesories.png"  class="cursor-pointer max-[1350px]:w-full max-[1350px]:h-[50vw] max-[800px]:h-full max-[1350px]:object-cover" alt="" srcset="">
+                <div class="absolute h-full w-full top-0 left-0" style="background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));"></div>
+                <div class="absolute cat bottom-20 left-20">
+                    <h1 class="uppercase text-3xl text-white font-bold mb-3">
+                        accessories
+                    </h1>
+                    <div class="btn">
+                        <a href="#">view products</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white">
+        <ul class="flex gap-4 bg-black items-center justify-center py-10">
+            <li class="cursor-pointer hover:text-gray-500">FAQs</li>
+            <li class="cursor-pointer hover:text-gray-500">Search </li>
+            <li class="cursor-pointer hover:text-gray-500">Pricavy Policy</li>
+            <li class="cursor-pointer hover:text-gray-500">Terms & Conditions</li>
+        </ul>
+        <div class="hover:text-gray-500">
+            © SPACEX STORE
+        </div>
+    </footer>
+    <script></script>
+</body>
+
+</html>
